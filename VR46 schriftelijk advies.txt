@@ -1,0 +1,84 @@
+
+
+
+
+Schriftelijk advies
+17 mei 2017 
+Bart de Jong
+MD1A
+
+
+
+
+
+ 
+Inleiding
+
+Beste Hjalmar, Ik Bart de Jong leerling van het Media College Amsterdam hebben van jouw een opdracht gekregen om een website te gaan maken, 
+een website waarop informatie kan worden getoond over iets of iemand. 
+Ik heb er zelf voor gekozen om mijn website te maken voor Nederlandse fans van de motor coureur Valentino Rossi, 
+en mijn Website noem ik dus ook VR|46 Fans wat zijn initialen zijn en zijn Race nummer. 
+Natuurlijk zijn er wel meer fan sites voor Valentino Rossi fans, maar die zijn vaak erg saai gestyled en daar word vrij weinig informatie op gedeeld en zijn meestal niet Nederlands. 
+Er is wel één site waar veel op gedeeld word en er ook wel leuk uitziet alleen het grote nadeel voor de meeste Nederlanders want die site is in het Italiaans, 
+en de motor coureur heeft vele fans over de hele wereld en dus ook in Nederland die deze site dus moeilijk zullen begrijpen. 
+Mijn doel is dus om een leuke en mooie website te maken voor Nederlandse Valentino Rossi fans waarop informatie word gedeeld over hun lievelings coureur.
+ 
+
+Doelstelling Product
+
+Om VR|46 zo succesvol te laten worden zijn er natuurlijk dingen nodig om de site zo goed mogelijk te laten werken. 
+Zo moet de website worden gebouwd met CMS in PHP en MySQL, en moet het voldoen aan de eisen volgens het MVC principe. 
+Verder moet er op de homepagina nieuwsberichten komen en per item moeten minimaal de Titel, datum, tekst en een foto aanwezig zijn. 
+Ook moet er een bladerfunctie aanwezig zijn om de laatste aantal berichten te kunnen bladeren. 
+Ook moet er nog een infopagina komen met contact informatie en over ons. 
+Op de laatste pagina is het de bedoeling dat daar een agenda komt met alle events en races.
+ 
+
+Eisen en wensen
+
+Eisen:
+-	Website bouwen met CMS, PHP en MySQL
+-	Voldoet aan MVC principe
+-	Responsive website
+-	Titel, datum, tekst en een foto per item
+-	Een bladerfunctie
+-	Twee verschillende lay-out types
+-	Modaal venster
+-	Template engine
+-	Agenda met naam, data en locatie
+-	Zoekfunctie met autosuggest
+-	CMS voor items (CRUD)
+
+Wensen:
+-	Met CMS pagina’s kunnen updaten, weghalen en koppelen
+-	Lazy loading met AJAX
+-	Zoek suggesties uit je database via AJAX
+-	Als Admin bezoekersgedrag in de gaten kunnen houden 
+-	Shopping systeem
+-	Reactie mogelijkheden voor fans
+
+
+ 
+Haalbaarheid
+
+Wat moet er gebeuren:
+
+Een site waarop informatie kan worden gedeeld over Valentino Rossi een informatie pagina en een agenda waar alle events en races staan weergegeven
+
+Is het mogelijk met huidige techniek?
+
+Ja de technieken van vandaag maken de opdracht mogelijk.
+
+
+ 
+Conclusie
+
+Conclusie:
+
+IK denk dat de doelstelling het best wordt bereikt met een goed design, goede back-end en gebruiksvriendelijk. 
+
+Globale tijdsplanning:
+
+Geschatte tijd:  5 weken.	
+
+

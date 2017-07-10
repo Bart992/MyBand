@@ -1,0 +1,719 @@
+$yellow: #F2E629
+$blue: #29327A
+
+body
+  margin: 0
+  padding: 0
+  font-family: sans-serif
+
+.container-header
+  width: 90%
+  margin: 0 auto
+
+.nav
+  a
+    color: $yellow
+    font-size: 15px
+    font-weight: bold
+    padding: 14px 10px
+    text-transform: uppercase
+    text-decoration: none
+    -webkit-transition: 0.5s all ease
+    &:hover, &:focus
+      text-decoration: none
+      color: white
+      text-shadow: $yellow
+  position: absolute
+  width: 100%
+  top: 0
+  background-color: rgba(0, 0, 0, 0.7)
+  margin-right: 2.5%
+  z-index: 200
+  li
+    display: inline
+  .logo
+    float: left
+    margin-left: 2.5%
+
+.icon span i
+  display: none
+
+
+.video
+  height: 500px
+  width: 100%
+
+
+video
+  position: fixed
+  right: 0
+  bottom: 0
+  width: auto
+  min-width: 100%
+  height: auto
+  min-height: 100%
+  background: #000
+  z-index: -999
+
+.jumbotron
+  height: 500px
+  position: relative
+  .container
+    top: 100px
+    margin: 50px auto 0 auto
+    text-align: center
+    width: 100%
+    padding-top: 50px
+  h1
+    color: $yellow !important
+    font-size: 48px
+    text-shadow: 3px 3px 10px $blue
+    padding: 50px
+    font-family: 'Shift', sans-serif
+    font-weight: bold
+  p
+    font-size: 30px
+    text-shadow: 3px 3px 10px $blue
+    padding: 50px
+    color: $yellow
+    margin-top: -50px
+
+.thumbnail
+  background-repeat: no-repeat
+  background-size: cover
+  height: 300px
+  width: 30%
+  display: inline-block
+  transition: all 300ms
+  border-radius: 3px
+  &:hover
+    transform: scale(1.2)
+
+.wrapperfoto
+  width: 100%
+  margin: 0 auto
+  text-align: center
+  min-height: 700px
+  margin-bottom: 100px
+  position: relative
+  top: 50px
+
+.neighborhood-guides
+  background-color: rgba(0, 0, 0, 0.7)
+  padding: 50px
+  margin-top: 30px
+  padding-bottom: 0
+  height: 20%
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.news
+  background-color: rgba(0, 0, 0, 0.7)
+  padding: 50px
+  margin: 0 auto
+  padding-bottom: 0
+  margin-bottom: 50px
+  height: 800px
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.news-wrap
+  width: 90%
+  margin: 0 auto
+
+.news-item
+  width: 33%
+  height: 300px
+  float: left
+  overflow: hidden
+  color: $yellow
+  position: relative
+
+.news-image
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+  width: 100%
+  margin: 1%
+  transition: 0.3s
+  border-radius: 3px
+  transform: scale(1)
+
+
+.news-item:hover .news-image
+  transform: scale(1.1)
+
+.news-item .content
+  margin-left: 50px
+  width: 100%
+  font-size: 20px
+  cursor: pointer
+  text-shadow: 3px 3px 10px $blue
+  position: absolute
+  bottom: 50px
+  opacity: 0
+  transition: 0.3s
+
+.news-item:hover .content
+  opacity: 1
+
+.content a
+  color: $yellow
+  text-decoration: none
+  transition: 0.3s
+  font-weight: bold
+
+.content a:hover
+  color: white
+  text-shadow: 3px 3px 10px $blue
+
+.races-title
+  height: 500px
+  width: 100%
+  h1
+    color: $yellow
+    text-align: center
+    margin-top: 10%
+
+.races
+  background-color: rgba(0, 0, 0, 0.7)
+  padding: 50px
+  padding-bottom: 0
+  margin-top: -20%
+  height: 2500px
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.races-wrap
+  width: 90%
+  margin: 0 auto
+
+.races-item
+  width: 33%
+  height: 300px
+  margin-top: 5%
+  float: left
+  overflow: hidden
+  color: $yellow
+  position: relative
+
+.races-image
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+  width: 100%
+  margin: 1%
+  border-radius: 3px
+  transition: all 300ms
+  &:hover
+    transform: scale(1.2)
+
+.races-item:hover .races-image
+  transform: scale(1.1)
+
+.races-item .races-content
+  margin-left: 50px
+  width: 100%
+  font-size: 20px
+  text-shadow: 3px 3px 10px $blue
+  position: absolute
+  bottom: 50px
+  opacity: 0
+  transition: 0.3s
+
+.races-item:hover .races-content
+  opacity: 1
+
+.races-content a
+  color: $yellow
+  text-decoration: none
+  transition: 0.3s
+  font-weight: bold
+
+.races-content a:hover
+  color: white
+  text-shadow: 3px 3px 10px $blue
+
+.over-title
+  height: 500px
+  width: 100%
+  h1
+    color: $yellow
+    text-align: center
+    margin-top: 10%
+
+.over
+  background-color: rgba(0, 0, 0, 0.7)
+  padding: 50px
+  padding-bottom: 0
+  margin-top: -20%
+  height: 800px
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.over-text
+  width: 40%
+  margin-left: 5%
+  p
+    color: $yellow
+
+.over-image
+  background-repeat: no-repeat
+  background-size: cover
+  height: 300px
+  width: 40%
+  display: inline-block
+  border-radius: 3px
+
+.over-fotos
+  width: 40%
+  float: right
+  text-align: center
+  position: relative
+  margin-top: -31.5%
+  margin-right: 5%
+
+.foto-title
+  height: 500px
+  width: 100%
+  h1
+    color: $yellow
+    text-align: center
+    margin-top: 10%
+
+.foto-wrapper
+  background-color: rgba(0, 0, 0, 0.7)
+  margin-top: -20%
+  padding: 50px
+  padding-bottom: 0
+  height: 20%
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.paginas-wrap
+  width: 50%
+  margin: 0 auto
+  height: 100px
+  text-align: center
+  #pagenumber
+    color: $yellow
+    font-size: 20px
+  #paginas-links
+    padding: 10px
+    text-decoration: none
+    float: left
+    margin-top: -0.1%
+    transition: 0.3s
+    a
+      text-decoration: none
+      color: $yellow
+      margin: 0 auto
+      &:hover, &:focus
+        text-decoration: none
+        color: white
+  #paginas-rechts
+    padding: 10px
+    text-decoration: none
+    float: right
+    margin: 0 auto
+    a
+      text-decoration: none
+      color: $yellow
+      transition: 0.3s
+      &:hover, &:focus
+        text-decoration: none
+        color: white
+
+.nieuws-title
+  height: 200px
+  width: 100%
+  h1
+    color: $yellow
+    text-align: center
+    margin-top: 10%
+
+.nieuws
+  background-color: rgba(0, 0, 0, 0.7)
+  padding: 50px
+  margin: 0 auto
+  padding-bottom: 0
+  margin-bottom: 5%
+  height: 800px
+  width: calc(100%-100px)
+  h1
+    color: $yellow
+    text-align: center
+
+.nieuws-wrap
+  width: 90%
+  margin: 0 auto
+
+.nieuws-item
+  width: 33%
+  height: 300px
+  float: left
+  overflow: hidden
+  color: $yellow
+  position: relative
+
+.nieuws-image
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+  width: 100%
+  margin: 1%
+  transition: 0.3s
+  border-radius: 3px
+  transform: scale(1)
+
+
+.nieuws-item:hover .nieuws-image
+  transform: scale(1.1)
+
+.nieuws-item .nieuws-content
+  margin-left: 50px
+  width: 100%
+  font-size: 20px
+  cursor: pointer
+  text-shadow: 3px 3px 10px $blue
+  position: absolute
+  bottom: 50px
+  opacity: 0
+  transition: 0.3s
+
+.nieuws-item:hover .nieuws-content
+  opacity: 1
+
+.nieuws-content a
+  color: $yellow
+  text-decoration: none
+  transition: 0.3s
+  font-weight: bold
+
+.nieuws-content a:hover
+  color: white
+  text-shadow: 3px 3px 10px $blue
+
+
+//lightbox
+.short-animate
+  -webkit-transition: .5s ease-in-out
+  -moz-transition: .5s ease-in-out
+  -ms-transition: .5s ease-in-out
+  -o-transition: .5s ease-in-out
+  transition: .5s ease-in-out
+
+.lightbox
+  position: absolute
+  top: -100%
+  bottom: 100%
+  left: 0
+  right: 0
+  background: rgba(0, 0, 0, 0.8)
+  z-index: 1000
+  opacity: 0
+  overflow-y: scroll
+  overflow-x: hidden
+
+  .lightbox-content
+    position: absolute
+    margin: auto
+    top: 150px
+    left: 0
+    right: 0
+    width: 90%
+    padding-bottom: 50px
+    margin-bottom: 150px
+    background-color: white
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.7)
+    .lightbox-image
+      background-repeat: no-repeat
+      background-size: cover
+      height: 500px
+      width: 100%
+    .lightbox-content-text h1
+      color: $blue
+      font-family: sans-serif
+      margin-bottom: 30px
+    .lightbox-content-text
+      padding: 0px 50px 0 50px
+      color: black
+      font-family: sans-serif
+      font-size: 17px
+
+
+#lightbox-controls
+  position: fixed
+  height: 70px
+  width: 70px
+  top: -500px
+  margin-top: 10px
+  right: 0
+  z-index: 1000
+  color: $blue
+
+#close-lightbox
+  display: block
+  position: absolute
+  overflow: hidden
+  height: 50px
+  width: 50px
+  text-indent: -5000px
+  right: 40px
+  top: 25px
+  color: $blue
+  -webkit-transform: rotate(45deg)
+  -moz-transform: rotate(45deg)
+  -ms-transform: rotate(45deg)
+  -o-transform: rotate(45deg)
+  transform: rotate(45deg)
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    height: 0px
+    width: 3px
+    left: 24px
+    top: 0
+    background: white
+    border-radius: 2px
+    -webkit-transition: .5s .5s ease-in-out
+    -moz-transition: .5s .5s ease-in-out
+    -ms-transition: .5s .5s ease-in-out
+    -o-transition: .5s .5s ease-in-out
+    transition: .5s .5s ease-in-out
+    color: #8cf208
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    width: 0px
+    height: 3px
+    top: 24px
+    left: 0
+    background: white
+    border-radius: 2px
+    -webkit-transition: .5s 1s ease-in-out
+    -moz-transition: .5s 1s ease-in-out
+    -ms-transition: .5s 1s ease-in-out
+    -o-transition: .5s 1s ease-in-out
+    transition: .5s 1s ease-in-out
+    color: $blue
+
+.lightbox:target
+  top: 0%
+  bottom: 0%
+  opacity: 1
+  img
+    max-width: 100vh
+    max-height: 80vh
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9)
+  ~ #lightbox-controls
+    top: 0px
+    #close-lightbox
+      &:after
+        width: 50px
+      &:before
+        height: 50px
+
+.footer
+  background-color: rgba(41, 50, 122, 0.9)
+  width: 100%
+  padding-top: 1em
+  padding-bottom: 1em
+  margin: 0 auto
+  bottom: 0
+
+.footer_wrap
+  margin: 0 auto
+  width: 100%
+  padding-top: 15px
+  color: white
+  font-size: 17px
+  line-height: 23px
+  text-align: center
+
+.colom
+  display: inline-block
+  width: 380px
+  vertical-align: text-top
+  margin: 0 auto
+  text-align: center
+  a
+    color: white
+    text-decoration: none
+    transition: 0.3s
+    &:hover
+      color: $yellow
+
+
+
+ul.topnav
+  float: right
+  margin-top: 2%
+  margin-right: 2.5%
+
+ul.topnav li
+  display: inline
+
+ul.topnav li a
+  color: $yellow
+  padding: 0 3em
+  text-decoration: none
+  line-height: 3em
+  display: inline-block
+  transition: 0.3s
+
+ul.topnav li a:hover
+  color: white
+
+.sidenav
+  visibility: hidden
+  position: fixed
+
+@media (max-width:600px)
+  .thumbnail
+    width: 100%
+    height: 100px
+  .races
+    height: 2100px
+  .races-content
+    a
+      font-size: 10px
+      margin: 0 auto
+  .races-image
+    width: 100%
+    height: 100px
+  .races-item
+    width: 100%
+    height: 100px
+  .news-image
+    width: 100%
+    height: 100px
+  .news-item
+    width: 100%
+    height: 100px
+  .content
+    a
+      font-size: 10px
+      margin: 0 auto
+  .nieuws
+    height: 1200px
+  .nieuws-image
+    width: 100%
+    height: 100px
+  .nieuws-item
+    width: 100%
+    height: 100px
+
+@media (max-width:1150px)
+  video
+    display: none
+
+@media (max-width:1350px)
+  .thumbnail
+    width: 100%
+  .news-item
+    width: 100%
+  .news-image
+    width: 100%
+  .nieuws-image
+    width: 100%
+  .nieuws-item
+    .nieuws-content
+      a
+        font-size: 10px
+        margin: 0 auto
+  .nieuws
+    height: 750px
+  .nieuws-title
+    height: 200px
+    h1
+      margin-top: 200px
+  .foto-title
+    height: 200px
+    h1
+      margin-top: 200px
+  .races-title
+    height: 200px
+    h1
+      margin-top: 200px
+  .over-title
+    height: 200px
+    h1
+      margin-top: 200px
+  .over
+    height: 1750px
+  .over-text
+    width: 100%
+  .over-fotos
+    display: none
+  .news
+    height: 750px
+  .colom
+    width: 100%
+  .content
+    width: 100%
+    margin: 0 auto
+    font-size: 5px
+  .lightbox
+    .lightbox-content
+      .lightbox-image
+        height: 200px
+
+@media (max-width:1350px)
+  .header_image
+    width: 100%
+
+  @media (max-width:1350px)
+    ul.topnav li
+      display: none
+    .icon span i
+      display: inline-block
+      float: right
+      margin-top: 40px
+      margin-right: -50px
+      color: $yellow
+      transition: 0.3s
+    .icon span i:hover
+      color: white
+
+  .sidenav
+    height: 100%
+    width: 0
+    position: fixed
+    list-style: none
+    z-index: 8
+    top: 0
+    left: 0
+    background: rgba(0,0,0,0.95)
+    overflow-x: hidden
+    transition: 0.5s
+    padding-top: 60px
+    visibility: visible
+  .sidenav a
+    padding: 8px 8px 8px 32px
+    text-decoration: none
+    font-size: 25px
+    color: $yellow
+    display: block
+    transition: 0.5s
+  .sidenav a:hover, .offcanvas a:focus
+    color: white
+  .sidenav .closebtn
+    position: absolute
+    top: 0
+    right: 25px
+    font-size: 36px
+  .sidenav i
+    color: $yellow

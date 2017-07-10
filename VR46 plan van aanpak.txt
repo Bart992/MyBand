@@ -1,0 +1,49 @@
+
+Plan van aanpak
+19 mei 2017 
+Bart de Jong
+MD1A
+ 
+
+
+ 
+Inleiding
+
+De opdracht was om een website te maken waarop informatie kan worden getoond over iets of iemand. 
+zelf had ik er voor gekozen om mijn website te maken voor Nederlandse fans van de motor coureur Valentino Rossi. 
+Verder was het nog de bedoeling om een site te maken volgens het MVC principe en dat deze ook responsive zal zijn. 
+Ook moet de site gebouwd zijn met CMS, PHP en MySQL en moet de site nog een bladerfunctie hebben, 2 verschillende lay-out types, een modaal venster, 
+een template engine, een zoekfunctie met autosuggest en moet de site een agenda bevatten met naam, data en locatie. 
+Mijn doel is dus om een leuke en mooie website te maken voor Nederlandse Valentino Rossi fans waarop informatie word gedeeld over hun lievelings coureur.
+ 
+
+
+Projectdefinitie
+
+De uit te voeren activiteiten voor het project zijn:
+-	Website bouwen met CMS, PHP en MySQL
+-	Voldoet aan MVC principe
+-	Responsive website
+-	Titel, datum, tekst en een foto per item
+-	Een bladerfunctie
+-	Twee verschillende lay-out types
+-	Modaal venster
+-	Template engine
+-	Agenda met naam, data en locatie
+-	Zoekfunctie met autosuggest
+-	CMS 
+
+
+
+Het project zal volledig door mij (Bart de Jong) worden uitgevoerd. 
+Dus er zullen geen andere personen aan deze website gaan werken behalve in de test fase zullen er wel andere personen worden ingeschakeld om de website te gaan testen.
+
+
+
+DoD:
+-	Alle code is geschreven (alle ‘to do’ items in de code zijn gedaan)
+-	Relevante gebruikersdocumentatie is gemaakt en beschikbaar gesteld
+-	Er is een installatiehandleiding voor de installatie van de software
+-	‘Alle functionele tests’ zijn gedraaid
+-	 Code heeft een peer review ondergaan
+
